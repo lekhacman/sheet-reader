@@ -1,0 +1,27 @@
+{
+  "name": "sheet-reader",
+  "version": "1.0.0",
+  "description": "Spreadsheet reader",
+  "main": "src/main.js",
+  "repository": "https://github.com/lekhacman/sheet-reader.git",
+  "author": "Le Khac Man <lekhacman@outlook.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ramda": "^0.26.1",
+    "xlsx": "^0.14.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-jest": "^22.7.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5"
+  }
+}
